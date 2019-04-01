@@ -3,7 +3,7 @@
 #### By **James Gathuru**
 ## Description
 github repository :https://github.com/jamesgathuru001/Quiz-Board.git
-gh-page :
+gh-page :https://jamesgathuru001.github.io/Quiz-Board/
 This is a site designed to test student's from a school on how well they understood Javascript.The Users are required to fill the multiple choice questions and afterwards submit their input.Immediately a user submits his/her answers,their score is displayed at the bottom of the page.
 ## Features
 * User-friendly intaface
