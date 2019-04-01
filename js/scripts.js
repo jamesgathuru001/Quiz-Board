@@ -1,7 +1,7 @@
 //Bussiness Logic//
 function set(){
-  var names=document.getElementById('allNames').value;
-  document.getElementById('person').innerHTML=names;
+  var names=document.getElementById("allNames").value;
+  document.getElementById("person").innerHTML=names;
 }
 
 //U.I logic//
