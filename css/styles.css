@@ -3,9 +3,9 @@
   padding: 10px 10px 10px 20px;
 }
 #questions {
-  background-color: #DFFDFB;
+  background-color: white;
   width: auto;
-  opacity: 0.6;
+  opacity: 0.9;
 }
 #tt{
   padding-top: 100px;
@@ -33,17 +33,17 @@ h1{
 }
 #seen{
   font-size: 25px;
-  color:black;
+  color:orange;
 }
 #hide{
   display: none;
   height: 70px;
   font-size: 20px;
-  background-color: #DFFDFB;
-  opacity: 0.6;
+  background-color: orange;
+  opacity: 0.9;
 }
 #answers{
   display: none;
-  background-color: #DFFDFB;
-  opacity: 0.6;
+  background-color: white;
+  opacity: 0.9;
 }
