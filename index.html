@@ -12,25 +12,25 @@
     <title>Home</title>
   </head>
   <body>
-    <<div class="container">
+    <div class="container">
 
-      <h1>JavaScript Quiz</h1>
+      <h1 class="text-info">JavaScript Quiz</h1>
 
     <center id="tt">
 
       <form id="name">
 
         <p id="medium" class="text-muted col-md-12">enter your name</p>
-        <input type="text" id="allNames" class="form-control col-9" name="" value="" placeholder="Your Name" autofocus required><br>
-        <button type="submit" name="btn btn-info" onclick="set()" name="button">Proceed</button>
-
+        <input type="text" id="firstName" class="form-control col-9" name="" value="" placeholder="Your Name" autofocus required><br>
+        <button type="submit" class="btn btn-info" onclick="set()" name="button">Proceed</button>
       </form>
 
       <div id="begin">
-        <p id="seen" class="text-muted col-md-8"> <span id="person"></span> How well do you know JavaScript? <strong>Moringa school</strong> wishes to test your prowess in JavaScript</p>
-        <p class="holder">
-          <button type="button" id="start" class="btn btn-success" name="button">Start Quiz</button>
-        </p>
+          <p id="seen" class="text-muted col-md-8"> <span id="person"></span> how well do you know Javascript?<span id="school"></span> wishes to test your prowess in javascript</p>
+          <p class="holder">
+            <button type="button" id="start" class="btn btn-success" name="button">Start Test</button>
+          </p>
+
       </div>
 
     </center>
