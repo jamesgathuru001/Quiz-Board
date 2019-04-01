@@ -1,0 +1,47 @@
+#quiz{
+  display: none;
+  padding: 10px 10px 10px 20px;
+}
+#questions {
+  background-color: #DFFDFB;
+  width: auto;
+  opacity: 0.6;
+}
+#tt{
+  padding-top: 100px;
+}
+h1 {
+  color:#E7FFA1;
+  box-shadow: 1px 1px 2px 1px #DDFFF2;
+}
+#firstName{
+  width: auto;
+}
+#begin{
+  display: none;
+}
+h1{
+  font-size: 21px;
+}
+#name{
+  opacity: 0.7;
+  width: 300px;
+}
+#medium{
+  font-size: 20px;
+}
+#seen{
+  font-size: 25px;
+}
+#hide{
+  display: none;
+  height: 70px;
+  font-size: 20px;
+  background-color: #DFFDFB;
+  opacity: 0.6;
+}
+#answers{
+  display: none;
+  background-color: #DFFDFB;
+  opacity: 0.6;
+}
