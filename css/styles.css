@@ -1,8 +1,5 @@
-body {
-  background-image: url();
-}
 #quiz{
-  display: none;
+  /* display: none; */
   padding: 10px 10px 10px 20px;
 }
 #questions {
@@ -14,14 +11,14 @@ body {
   padding-top: 100px;
 }
 h1 {
-  color:red;
-  box-shadow: 1px 1px 2px 1px blue;
+  color: orange;
+  box-shadow: 1px 1px 2px 1px black;
 }
 #firstName{
   width: auto;
 }
 #begin{
-  display: none;
+  /* display: none; */
 }
 h1{
   font-size: 21px;
@@ -37,14 +34,14 @@ h1{
   font-size: 25px;
 }
 #hide{
-  display: none;
+  /* display: none; */
   height: 70px;
   font-size: 20px;
   background-color: #DFFDFB;
   opacity: 0.6;
 }
 #answers{
-  display: none;
+  /* display: none; */
   background-color: #DFFDFB;
   opacity: 0.6;
 }
