@@ -21,8 +21,15 @@ $(document).ready(function(){
     $("#results").text(name+" "+"your score is :"+" "+display+"%");
   });
 
+  $("#change").click(function() {
+    $('#allNames').css('display','none');
+    $('#change').css('display','none');
+    $('#medium').css('display','none');
+    $("#begin").show();
+  });
+
   $("#start").click(function(){
-    $("#quiz").slideToggle();
+    $("#quiz").slideDown();
   });
 
   $("#name").submit(function(){
