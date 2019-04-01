@@ -6,7 +6,7 @@ function set(){
 
 //U.I logic//
 $(document).ready(function(){
-  $('#quiz').submit(function(event){
+  $("#quiz").submit(function(event){
     event.preventDefault();
     var language = parseInt($("input:radio[name=Q1]:checked").val());
     var logic = parseInt($("input:radio[name=Q2]:checked").val());
@@ -15,10 +15,10 @@ $(document).ready(function(){
     var popup = parseInt($("input:radio[name=Q5]:checked").val());
     var array = parseInt($("input:radio[name=Q6]:checked").val());
     var display = parseInt((language + logic + method + constant + popup + array)/60*100);
-    var name = $("input#allNames").val();
+    var name=$("input#allNames").val();
     $("#hide").slideDown();
     $("input").prop("disabled", true);
-    $("#results").text(names+ "" + "your score is :" + "" + display + "%");
+    $("#results").text(name+" "+"your score is :"+" "+display+"%");
   });
 
   $("#start").click(function(){
